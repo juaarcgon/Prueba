@@ -1,0 +1,43 @@
+{
+  "name": "prueba-tecnica",
+  "version": "1.0.0",
+  "description": "<p align=\"center\"><img src=\"https://laravel.com/assets/img/components/logo-laravel.svg\"></p>",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli": "^5.0.1",
+    "@vue/cli-service": "^5.0.1",
+    "vue": "^3.2.31",
+    "vue-axios": "^3.4.1",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.4.1",
+    "cross-env": "^7.0.3",
+    "jquery": "^3.6.0",
+    "laravel-mix": "^6.0.43",
+    "lodash": "^4.17.21",
+    "postcss": "^8.4.6",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "repository":{
+    "type": "git",
+    "url": "git+https://github.com/juaarcgon/Prueba.git"
+
+  }
+}
