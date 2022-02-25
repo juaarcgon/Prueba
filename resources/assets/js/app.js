@@ -17,7 +17,6 @@ const router = new VueRouter({
     mode:'history',
     routes: routes
 });
-
 const app = new Vue({
     el:'#app',
     router: router,

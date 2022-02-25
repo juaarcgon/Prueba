@@ -1,0 +1,52 @@
+INFORMACION DE LA API DE DOGS
+
+Durante el desarrollo me he topado con diversas adversidades a la hora de afrontar el proyecto, ya que no tenia conocimiento sobre back-end con laravel.
+Por lo que a la hora de montar back-end y front-end con laravel en su version 5.3, han ido surgiendo una serie de problemas los cuales, nombraré a continuación:
+
+* Primero la version de laravel 5.3 tiene una incompatibilidad o una forma de usar webpack que desconozco, que tras una intensa busqueda no he dado con la solución.
+Esta imcompatibilidad se podrán ver tras ejecutarla es que tras aplicar el comando 'npm run watch', comando que sirve para que monte el front-end realizado con vue 3.
+Aunque añado aqui el error que no he conseguido solucionar:
+
+    ERROR in ./resources/assets/sass/app.scss
+Module build failed (from ./node_modules/laravel-mix/node_modules/mini-css-extract-plugin/dist/loader.js):
+ModuleBuildError: Module build failed (from ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js):
+Error: Can't resolve '../../../node_modules/bootstrap-sass/assets/stylesheets/fonts/bootstrap/glyphicons-halflings-regular.eot' in 'C:\Users\juanm\Ampps\www\prueba-tecnica\resources\assets\sass'
+    at finishWithoutResolve (C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\enhanced-resolve\lib\Resolver.js:304:18)
+    at C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\enhanced-resolve\lib\Resolver.js:381:15
+    at C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\enhanced-resolve\lib\Resolver.js:430:5
+    at eval (eval at create (C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:16:1)
+    at C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\enhanced-resolve\lib\Resolver.js:430:5
+    at eval (eval at create (C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:27:1)
+    at C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\enhanced-resolve\lib\DescriptionFilePlugin.js:87:43
+    at C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\enhanced-resolve\lib\Resolver.js:430:5
+    at eval (eval at create (C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:15:1)
+    at C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\enhanced-resolve\lib\Resolver.js:430:5
+    at processResult (C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\webpack\lib\NormalModule.js:753:19)
+    at C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\webpack\lib\NormalModule.js:855:5
+    at C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\loader-runner\lib\LoaderRunner.js:399:11
+    at C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\loader-runner\lib\LoaderRunner.js:251:18
+    at context.callback (C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\loader-runner\lib\LoaderRunner.js:124:13)
+    at Object.loader (C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\laravel-mix\node_modules\css-loader\dist\index.js:155:5)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+* Por otra parte, para la base de datos he creado lo siguiente:
+    Controladores:
+        - DogsController.php ->
+
+
+
+
+
+
+
+
+
+* Por último, he creado los distintos components con vue 3 que son:
+    Acciones a realizar en la base de datos:
+        - Crear.vue -> Sirve para crear un perro enviandolo a la base de datos.
+        - Editar.vue -> Sirve para modificar datos de un perro. Podrias modificar en teoria todos los datos de un perro.
+        - Mostrar.vue -> Sirve para mostrar todos los elementos que haya en la base de datos.
+    Vistas creadas:
+        - App.vue -> sirve como hub central de la SPA.
+        - Home.vue -> una vista simple con una descripción para la página.
+        - Perros.vue -> localización de la tabla tras añadir datos.

@@ -39,8 +39,7 @@ export default {
     data () {
         return{
             perros: []
-        }
-        
+        }  
     },
     mounted(){
         this.mostrarPerros()
