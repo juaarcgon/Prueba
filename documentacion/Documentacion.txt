@@ -4,8 +4,8 @@ Durante el desarrollo me he topado con diversas adversidades a la hora de afront
 Por lo que a la hora de montar back-end y front-end con laravel en su version 5.3, han ido surgiendo una serie de problemas los cuales, nombraré a continuación:
 
 * Primero la version de laravel 5.3 tiene una incompatibilidad o una forma de usar webpack que desconozco, que tras una intensa busqueda no he dado con la solución.
-Esta imcompatibilidad se podrán ver tras ejecutarla es que tras aplicar el comando 'npm run watch', comando que sirve para que monte el front-end realizado con vue 3.
-Aunque añado aqui el error que no he conseguido solucionar:
+Esta imcompatibilidad se podrá ver tras ejecutar el comando 'npm run watch', que sirve para que monte el front-end realizado con vue 3.
+Añado aqui el error que no he conseguido solucionar:
 
     ERROR in ./resources/assets/sass/app.scss
 Module build failed (from ./node_modules/laravel-mix/node_modules/mini-css-extract-plugin/dist/loader.js):
@@ -29,24 +29,27 @@ Error: Can't resolve '../../../node_modules/bootstrap-sass/assets/stylesheets/fo
     at Object.loader (C:\Users\juanm\Ampps\www\prueba-tecnica\node_modules\laravel-mix\node_modules\css-loader\dist\index.js:155:5)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
 
+Este error esta presente en webpack.mix.js, más concretamente a la hora de hacer el mix del css. No he encontrado como solucionarlo.
+
 * Por otra parte, para la base de datos he creado lo siguiente:
     Controladores:
-        - DogsController.php ->
+        - DogsController.php -> controlador de almacenamiento,creación, actualización y muestra de la base de datos.
+    Modelos:
+        -Dogs.php -> modelo de los datos que entrarán en la base de datos.
+
+    Migrations:
+        -2022_02_24_105926_create_dogs_table.php -> esquema de los datos que entrarán en la base de datos.
+
+    Semilla:
+        - DatabaseSeeder.php -> he creado un dato aleatorio para probar la base de datos.
 
 
-
-
-
-
-
-
-
-* Por último, he creado los distintos components con vue 3 que son:
+* Por último, he creado los distintos components, que está localizada dentro de la carpeta "/resources/js", con vue 3 que son:
     Acciones a realizar en la base de datos:
-        - Crear.vue -> Sirve para crear un perro enviandolo a la base de datos.
-        - Editar.vue -> Sirve para modificar datos de un perro. Podrias modificar en teoria todos los datos de un perro.
-        - Mostrar.vue -> Sirve para mostrar todos los elementos que haya en la base de datos.
+        - Crear.vue -> Serviría para crear un perro enviándolo a la base de datos.
+        - Editar.vue -> Serviría para modificar datos de un perro. 
+        - Mostrar.vue -> Serviría para mostrar todos los elementos que haya en la base de datos.
     Vistas creadas:
-        - App.vue -> sirve como hub central de la SPA.
-        - Home.vue -> una vista simple con una descripción para la página.
-        - Perros.vue -> localización de la tabla tras añadir datos.
+        - App.vue -> Serviría como hub central de la SPA.
+        - Home.vue -> Sería una vista simple con una descripción para la página.
+        - Perros.vue -> Lugar donde estaría la localización de la tabla tras añadir datos.

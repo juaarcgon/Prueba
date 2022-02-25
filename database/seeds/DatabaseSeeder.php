@@ -19,11 +19,5 @@ class DatabaseSeeder extends Seeder
             'haircolor'=> str_random(10),
         ]);
 
-        DB::table('dogs')->insert([
-            'image' => '' , 
-            'breed'=> str_random(10), 
-            'size'=> str_random(10),
-            'haircolor'=> str_random(10),
-        ]);
     }
 }
