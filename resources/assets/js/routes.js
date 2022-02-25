@@ -1,11 +1,11 @@
 const Home = () => import('./components/Home.vue')
-const Dogs = () => import('./components/Dogs.vue')
+const Dogs = () => import('./components/Perros.vue')
 
 // Componentes para trabajar con los perros
 
-const Mostrar = () => import('./components/Mostrar.vue')
-const Crear = () => import('./components/Crear.vue')
-const Editar = () => import('./components/Editar.vue')
+const Mostrar = () => import('./components/Perro/Mostrar.vue')
+const Crear = () => import('./components/Perro/Crear.vue')
+const Editar = () => import('./components/Perro/Editar.vue')
 
 export const routes = [
     {
