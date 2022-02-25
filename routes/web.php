@@ -14,10 +14,6 @@ use App\Http\Controllers\DogsController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('',function(){
     return view('app');
 });

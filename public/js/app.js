@@ -17220,26 +17220,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, "componente principal vue", -1
-/* HOISTED */
-);
-
-var _hoisted_2 = {
+var _hoisted_1 = {
   "class": "navbar navbar-expand-lg navbar-light bg-light"
 };
-var _hoisted_3 = {
+var _hoisted_2 = {
   "class": "container-fluid"
 };
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
   "class": "navbar-brand",
   href: "#"
 }, "Perritos", -1
 /* HOISTED */
 );
 
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
   "class": "navbar-toggler",
   type: "button",
   "data-bs-toggle": "collapse",
@@ -17253,26 +17248,26 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_6 = {
+var _hoisted_5 = {
   "class": "collapse navbar-collapse",
   id: "navbarSupportedContent"
 };
-var _hoisted_7 = {
+var _hoisted_6 = {
   "class": "navbar-nav me-auto mb-2 mb-lg-0"
 };
-var _hoisted_8 = {
+var _hoisted_7 = {
   "class": "nav-item"
 };
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Inicio");
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Inicio");
 
-var _hoisted_10 = {
+var _hoisted_9 = {
   "class": "nav-item"
 };
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Perros");
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Perros");
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
   "class": "d-flex"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
   "class": "form-control me-2",
@@ -17289,31 +17284,31 @@ var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 function render(_ctx, _cache) {
   var _component_router_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("router-link");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     "exact-active-class": "active",
     to: "/",
     "class": "nav-link active",
     "aria-current": "page"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_9];
+      return [_hoisted_8];
     }),
     _: 1
     /* STABLE */
 
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_router_link, {
     "exact-active-class": "active",
     to: "/Perros",
     "class": "nav-link active",
     "aria-current": "page"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_11];
+      return [_hoisted_10];
     }),
     _: 1
     /* STABLE */
 
-  })])]), _hoisted_12])])])]);
+  })])]), _hoisted_11])])])]);
 }
 
 /***/ }),
@@ -17329,40 +17324,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "render": () => (/* binding */ render)
 /* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "container mt-4"
+};
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "row"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "col text-center"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Componentes"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "badge bg-secondary"
+}, "Perros")])])], -1
+/* HOISTED */
+);
+
+var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache) {
-  return null;
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
 }
-
-/***/ }),
-
-/***/ "./resources/assets/js/app.js":
-/*!************************************!*\
-  !*** ./resources/assets/js/app.js ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-/**
- * First we will load all of this project's JavaScript dependencies which
- * include Vue and Vue Resource. This gives a great starting point for
- * building robust, powerful web applications using Vue and Laravel.
- */
-__webpack_require__(/*! ./bootstrap */ "./resources/assets/js/bootstrap.js");
-
-window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
-Vue.component('App', __webpack_require__(/*! ./components/App.vue */ "./resources/assets/js/components/App.vue"));
-Vue.component('Home', __webpack_require__(/*! ./components/Home.vue */ "./resources/assets/js/components/Home.vue"));
-Vue.component('Perros', __webpack_require__(/*! ./components/Perros.vue */ "./resources/assets/js/components/Perros.vue"));
-var router = new VueRouter({
-  mode: 'history',
-  routes: routes
-});
-var app = new Vue({
-  el: '#app',
-  router: router,
-  render: function render(h) {
-    return h(App);
-  }
-});
 
 /***/ }),
 
@@ -30895,16 +30876,6 @@ if ( typeof noGlobal === "undefined" ) {
 return jQuery;
 } );
 
-
-/***/ }),
-
-/***/ "./resources/assets/sass/app.scss":
-/*!****************************************!*\
-  !*** ./resources/assets/sass/app.scss ***!
-  \****************************************/
-/***/ (() => {
-
-throw new Error("Module build failed (from ./node_modules/laravel-mix/node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js):\nError: Can't resolve '../../../node_modules/bootstrap-sass/assets/stylesheets/fonts/bootstrap/glyphicons-halflings-regular.eot' in 'C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\resources\\assets\\sass'\n    at finishWithoutResolve (C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\enhanced-resolve\\lib\\Resolver.js:304:18)\n    at C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\enhanced-resolve\\lib\\Resolver.js:381:15\n    at C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\enhanced-resolve\\lib\\Resolver.js:430:5\n    at eval (eval at create (C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:16:1)\n    at C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\enhanced-resolve\\lib\\Resolver.js:430:5\n    at eval (eval at create (C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:27:1)\n    at C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\enhanced-resolve\\lib\\DescriptionFilePlugin.js:87:43\n    at C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\enhanced-resolve\\lib\\Resolver.js:430:5\n    at eval (eval at create (C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\enhanced-resolve\\lib\\Resolver.js:430:5\n    at processResult (C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\webpack\\lib\\NormalModule.js:753:19)\n    at C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\webpack\\lib\\NormalModule.js:855:5\n    at C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\loader-runner\\lib\\LoaderRunner.js:399:11\n    at C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\loader-runner\\lib\\LoaderRunner.js:251:18\n    at context.callback (C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\loader-runner\\lib\\LoaderRunner.js:124:13)\n    at Object.loader (C:\\Users\\juanm\\Ampps\\www\\prueba-tecnica\\node_modules\\laravel-mix\\node_modules\\css-loader\\dist\\index.js:155:5)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)");
 
 /***/ }),
 
@@ -50052,12 +50023,35 @@ function compileToFunction(template, options) {
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	__webpack_require__("./resources/assets/js/app.js");
-/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__("./resources/assets/sass/app.scss");
-/******/ 	
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+(() => {
+/*!************************************!*\
+  !*** ./resources/assets/js/app.js ***!
+  \************************************/
+/**
+ * First we will load all of this project's JavaScript dependencies which
+ * include Vue and Vue Resource. This gives a great starting point for
+ * building robust, powerful web applications using Vue and Laravel.
+ */
+__webpack_require__(/*! ./bootstrap */ "./resources/assets/js/bootstrap.js");
+
+window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+Vue.component('App', __webpack_require__(/*! ./components/App.vue */ "./resources/assets/js/components/App.vue"));
+Vue.component('Home', __webpack_require__(/*! ./components/Home.vue */ "./resources/assets/js/components/Home.vue"));
+Vue.component('Perros', __webpack_require__(/*! ./components/Perros.vue */ "./resources/assets/js/components/Perros.vue"));
+var router = new VueRouter({
+  mode: 'history',
+  routes: routes
+});
+var app = new Vue({
+  el: '#app',
+  router: router,
+  render: function render(h) {
+    return h(App);
+  }
+});
+})();
+
 /******/ })()
 ;

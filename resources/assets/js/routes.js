@@ -31,7 +31,7 @@ export const routes = [
     },
     {
         name:'editarPerro',
-        path:'/editar/:breed',
+        path:'/editar/:id',
         component:Editar
     },
 ]
